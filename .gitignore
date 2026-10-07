@@ -1,0 +1,31 @@
+# Snake Game
+
+Um jogo de cobrinha básico em C# usando Raylib.
+
+## Como rodar
+
+1. Instale o SDK do .NET 8.
+2. No terminal, dentro da pasta do projeto, execute:
+
+```bash
+dotnet restore
+dotnet run
+```
+
+## Como funciona
+
+- A cobra se move em quatro direções.
+- A comida aparece em uma posição aleatória.
+- Ao comer, a cobra cresce e a pontuação aumenta.
+- Se bater na parede ou no próprio corpo, o jogo acaba.
+- Pressione `Enter` ou `R` para reiniciar.
+
+## Objetivo
+
+Este projeto foi pensado para você começar a entender os conceitos básicos de desenvolvimento de jogos:
+
+- loop do jogo
+- entrada do teclado
+- lógica de movimento
+- detecção de colisão
+- estados do jogo (jogando vs. game over)
